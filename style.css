@@ -9,22 +9,33 @@ header
 {
     height: 539px;
     width: 99.8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: black 1px solid;
 }
 .header_git
 {
     display: flex;
     align-items: center;  
+    justify-content: space-between;
+    width: 62%;
     border: black 1px solid; 
 }
-.header_git h1
+.header_git_site
 {
+    display: flex;
+    align-items: center;  
+}
+.header_git_site a
+{
+    text-decoration: none;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     color: #646464;
 }
-.header_git p
+.header_git_site p
 {
     font-size: 21px;
     font-weight: 700;
@@ -33,11 +44,16 @@ header
     padding-top: 20px;
     padding-left: 10px;
 }
+.header_git_links
+{
+    border: black 1px solid; 
+
+}
 #faq
 {
     font-weight: 700;
 }
-.header_git a
+.header_git_links a
 {
     text-decoration: none;
     font-size: 14px;
