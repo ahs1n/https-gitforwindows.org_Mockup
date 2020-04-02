@@ -17,10 +17,10 @@ header
 .header_git
 {
     display: flex;
-    align-items: center;  
+    /* align-items: center;   */
     justify-content: space-between;
     width: 62%;
-    border: black 1px solid; 
+    border-bottom: black 1px solid;
 }
 .header_git_site
 {
@@ -34,6 +34,7 @@ header
     font-weight: 700;
     line-height: 50px;
     color: #646464;
+
 }
 .header_git_site p
 {
@@ -46,8 +47,13 @@ header
 }
 .header_git_links
 {
-    border: black 1px solid; 
-
+    padding-top: 15px;
+    /* border: black 1px solid;  */
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    width: 270px;
+    
 }
 #faq
 {
