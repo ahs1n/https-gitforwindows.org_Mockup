@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font: 16px/1 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header
+{
+    height: 539px;
+    width: 99.8%;
+    border: black 1px solid;
+}
+.header_git
+{
+    display: flex;
+    align-items: center;  
+    border: black 1px solid; 
+}
+.header_git h1
+{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #646464;
+}
+.header_git p
+{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #969696;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#faq
+{
+    font-weight: 700;
+}
+.header_git a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #4b8cd2;
+}
