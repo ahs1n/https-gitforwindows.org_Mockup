@@ -7,7 +7,7 @@ body
 
 header
 {
-    height: 539px;
+    height: 488px;
     width: 99.8%;
     display: flex;
     align-items: center;
@@ -168,4 +168,12 @@ header
     line-height: 21px;
     background-color: #3F7DD6;
     margin-left: 5px;
+}
+.border_blue
+{
+    height: 5px;
+    width: 99.8%;
+    background-color: #00478F;
+    /* border: solid 1px black; */
+    /* position: absolute; */
 }
