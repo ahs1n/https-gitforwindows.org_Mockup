@@ -194,7 +194,7 @@ header
     height: 92px;
     width: 99.8%;
 }
-.tools p
+#tools_headining
 {
     font-size: 48px;
     font-weight: 300;
@@ -220,6 +220,13 @@ header
     height: 651px;
     width: 515px;
     border: solid black 1px;
+}
+.tools_discriptions p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #ebebeb;
 }
 .tools_discriptions_image
 {
