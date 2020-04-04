@@ -239,6 +239,13 @@ header
 .tools_discriptions_image
 {
     height: 912px;
-    width: 400px;
+    width: 300px;
     border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tools_discriptions_image img
+{
+    border: .3125em solid #5881BD
 }
