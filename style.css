@@ -210,10 +210,12 @@ header
 .tools_disc
 {
     height: 961px;
-    width: 99.%;
+    width: 99.8%;
     background-color: #2c66B8;
     display: flex;
     justify-content: center;
+    /* border: 1px solid black; */
+
 }
 .tools_discriptions
 {
@@ -279,4 +281,22 @@ header
     width:99.8%;
     border: solid 1px black;
     color: black;
+    display: flex;
+    justify-content: center ;
+}
+.contribute_image
+{
+    width: 344px;
+    height: 733px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.contribute_text
+{
+    height: 946px;
+    width: 534px;
+    border: black 1px solid;
 }
