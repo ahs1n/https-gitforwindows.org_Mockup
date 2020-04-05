@@ -283,6 +283,7 @@ header
     color: black;
     display: flex;
     justify-content: center ;
+    background-color: #2c66B8;
 }
 .contribute_image
 {
@@ -299,4 +300,19 @@ header
     height: 946px;
     width: 534px;
     border: black 1px solid;
+}
+.contribute_text p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #ebebeb;
+}
+.contribute_text a 
+{
+    color: #5eb6ff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    /* text-decoration: none; */
 }
