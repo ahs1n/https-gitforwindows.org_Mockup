@@ -308,11 +308,37 @@ header
     line-height: 31px;
     color: #ebebeb;
 }
-.contribute_text a 
+.contribute_text a
 {
     color: #5eb6ff;
     font-size: 16px;
     font-weight: 400;
     line-height: 31px;
     /* text-decoration: none; */
+}
+.contribute_text button
+{
+    height: 42px;
+    width: 163px;
+    border-radius: 6px;
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    background-color: #B0B0B0;
+}
+#button_2
+{
+    height: 42px;
+    width: 163px;
+    border-radius: 6px;
+    border: none;
+    height: 43px;
+    width: 351px;
+    background-color: #B0B0B0;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
 }
